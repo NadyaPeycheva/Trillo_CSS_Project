@@ -34,8 +34,31 @@
  //hotel-view
 .hotel-view{
     background-color: #fff;
-    //test
-    height: 80rem;
+
 //за да заеме оставаща част от контейнера
     flex:1;
+}
+//details
+.detail{
+    font-size:1.4rem;
+    display: flex;
+    padding:4.5rem;
+    background-color:var(--color-grey-light-1);
+    border-bottom: var(--line);
+}
+ //-description
+.description{
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    flex:0 0 60%;
+    margin-right: 4.5rem;
+}
+
+.user-reviews{
+    flex: 1;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
