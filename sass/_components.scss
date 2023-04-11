@@ -179,3 +179,13 @@
     text-align: center;
     padding:2.5rem;
 }
+//hotel-view
+ //-hotel-view images/gallery
+.gallery{
+    display: flex;
+
+    &__photo{
+        width:100%;
+        display: block;
+    }
+}
